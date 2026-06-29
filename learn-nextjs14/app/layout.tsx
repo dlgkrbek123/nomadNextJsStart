@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Navigation from "../components/Navigation";
+import "./global.css";
 
 export default function RootLayout({ children }) {
   return (
