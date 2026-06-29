@@ -1,12 +1,12 @@
 import Link from "next/link";
+import Navigation from "../components/Navigation";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <div>
-          <main>{children}</main>
-        </div>
+        <Navigation />
+        {children}
       </body>
     </html>
   );
